@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;600&display=swap');
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h1, h2 {
+ font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  color: #3D3A4B;
+}
+
+h2 {
+  color: #7C90A0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 12px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-border {
+  padding-bottom: 15px;
+  border-radius: 10px;
+  box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.card-white {
+  background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-font{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-color {
+  color: white;
+  background-color: #3D3A4B;
+  border-radius: 3px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+}
+
+.btn-color:hover {
+  color: black;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 50%;
+}
+
+
+.list-decoration {
+  margin: 0 12px;
+  font-size: 40px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-inline {
+  margin: 4px 12px;
+  display: inline-block;
+}
+
+.social-decoration {
+  text-decoration: none;
+  color: #3D3A4B;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .avatar {
+    width: 200px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .avatar {
+    width: 125px;
+  }
+}
+
